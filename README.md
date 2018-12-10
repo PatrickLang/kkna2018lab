@@ -9,7 +9,7 @@ The scripts used to customize the VMs are available at [PatrickLang/KubernetesFo
   - Windows - it's built-in (mstsc.exe)
 2. Browse to https://labs.azure.com/register/0mtpnnp7 , and complete signup if you don't have an account registered with Azure. This doesn't create a paid account, it's only a login for the lab. If you already have an Azure account, accessing this lab won't charge you anything.
 3. Look for the VM called 'kkna2018-lg'. If Connect is greyed out, click Start and wait a few minutes
-4. Click Connect. If you're on Windows or Mac, the browser should ask if you want to open the RDP file with Remote Desktop. If on Linux, save it to disk, then read on in [#using-remmina]
+4. Click Connect. If you're on Windows or Mac, the browser should ask if you want to open the RDP file with Remote Desktop. If on Linux, save it to disk, then read (#using-remmina)
 5. Log in with username: `kkna2018`, password `7HandledWheel!`
 
 
