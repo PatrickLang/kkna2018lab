@@ -28,4 +28,4 @@ username:s:~\kkna2018
 
 Create a new session in Remmina and copy the FQDN and port number after `full address:s:` . Be sure to choose Color Depth: `High Color` for best compatibility. The AVC modes require `libfreerdp` to be compiled with h.264 support which isn't in Ubuntu's snap.
 
-![remmina settings](images/remmina rdp settings.png)
+![remmina settings](images/remmina-rdp-settings.png)
