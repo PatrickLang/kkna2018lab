@@ -19,7 +19,7 @@ Click the `>_` icon on the taskbar to open up PowerShell
 
 ```powershell
 mkdir ~/.kube
-curl.exe -L -k https://.../random -o ~/.kube/config
+curl.exe -L http://52.247.236.178/random -o ~/.kube/config
 # Normally you would need a docker login before the next step, but it's already cached on the lab VMs
 draft config set registry kkna2018reg.azurecr.io
 ```
