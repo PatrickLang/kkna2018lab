@@ -13,6 +13,8 @@ The scripts used to customize the VMs are available at [PatrickLang/KubernetesFo
 5. Log in with username: `kkna2018`, password `7HandledWheel!`
 
 
+> TODO: In the VM run `curl.exe https://....ogfg.link -o ~/.kube/config`
+
 ## Using Remmina
 
 I have found conflicting stories of whether Remmina should work with RDP files or not, but it didn't work for me on Ubuntu 18.04.1. The RDP file is just a simple `key:type:value` structure, so it's easy to find the connection string.
