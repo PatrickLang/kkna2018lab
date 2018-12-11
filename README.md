@@ -19,14 +19,18 @@ Click the `>_` icon on the taskbar to open up PowerShell
 
 ```powershell
 mkdir ~/.kube
-curl.exe -L -k https://... -o ~/.kube/config
+curl.exe -L -k https://.../random -o ~/.kube/config
 # Normally you would need a docker login before the next step, but it's already cached on the lab VMs
 draft config set registry kkna2018reg.azurecr.io
 ```
 
+Then, find your namespace and test out the connection to Kubernetes with:
 
+```powershell
+kubectl config get-contexts
+kubectl get pod
+```
 
-> TODO: In the VM run `curl.exe https://....ogfg.link -o ~/.kube/config`
 
 ## Using Remmina
 
