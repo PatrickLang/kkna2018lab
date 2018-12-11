@@ -13,6 +13,19 @@ The scripts used to customize the VMs are available at [PatrickLang/KubernetesFo
 5. Log in with username: `kkna2018`, password `7HandledWheel!`
 
 
+Once logged in, you need to run a few steps to get your KUBECONFIG and set up draft for the right registry.
+
+Click the `>_` icon on the taskbar to open up PowerShell
+
+```powershell
+mkdir ~/.kube
+curl.exe -L -k https://... -o ~/.kube/config
+# Normally you would need a docker login before the next step, but it's already cached on the lab VMs
+draft config set registry kkna2018reg.azurecr.io
+```
+
+
+
 > TODO: In the VM run `curl.exe https://....ogfg.link -o ~/.kube/config`
 
 ## Using Remmina
