@@ -45,6 +45,9 @@ In this case, it's 'rascally'. We'll be using Helm later, and it will need an va
 $ENV:TILLER_NAMESPACE='rascally'
 ```
 
+> Now that you're set up, browse to https://github.com/PatrickLang/KubernetesForWindowsTutorial in the VM for the tutorial steps.
+
+
 ## Using Remmina
 
 I have found conflicting stories of whether Remmina should work with RDP files or not, but it didn't work for me on Ubuntu 18.04.1. The RDP file is just a simple `key:type:value` structure, so it's easy to find the connection string.
