@@ -31,6 +31,19 @@ kubectl config get-contexts
 kubectl get pod
 ```
 
+Be sure to remember your namespace - it's shown in `kubectl config get-contexts`
+
+```
+kubectl config get-contexts
+CURRENT   NAME       CLUSTER      AUTHINFO        NAMESPACE
+*         rascally   kkna2018w1   rascally-user   rascally
+```
+
+In this case, it's 'rascally'. We'll be using Helm later, and it will need an variable set to match this namespace:
+
+```powershell
+$ENV:TILLER_NAMESPACE='rascally'
+```
 
 ## Using Remmina
 
